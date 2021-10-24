@@ -1,0 +1,358 @@
+/* bagian main */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  font-family: "Poppins", sans-serif;
+  /* background-color: radial-gradient(
+    rgba(246, 243, 243, 0.205),
+    rgb(167, 161, 161)
+  ); */
+}
+
+.main {
+  margin: auto;
+}
+
+.container {
+  max-width: 1170px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.col-2 {
+  flex-basis: 50%;
+  min-width: 300px;
+}
+
+.col-2 #gambar {
+  max-width: 100%;
+  padding: 50px 0;
+}
+
+.col-2 h1 {
+  font-size: 50px;
+  line-height: 60px;
+  -ms-wrap-margin: 25px 0;
+}
+
+.btn {
+  display: inline-block;
+  background-color: rgb(15, 14, 13);
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 30px;
+  margin: 30px 0;
+  text-decoration: none;
+  transition: background 0.5s;
+}
+
+.btn:hover {
+  background: rgb(216, 207, 207);
+}
+.header {
+  background-color: #dfe4ea;
+}
+
+.header .row {
+  margin-top: 70px;
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 22px;
+  padding: 22px 0;
+  display: none;
+}
+
+/* bagian depan bawah */
+.tengah {
+  float: left;
+}
+
+.produk {
+  float: left;
+  margin: 15px 15px 15px 0;
+  width: 200px;
+  height: 100px;
+  border-radius: 20px;
+  border: 5px rgba(211, 208, 208, 0.932) solid;
+  border-radius: 40px;
+}
+
+.depan img {
+  width: 35%;
+  float: left;
+  margin-top: 12px;
+  margin-left: 8px;
+  align-items: center;
+  border-radius: 8px;
+  position: relative;
+}
+
+.buttom {
+  float: left;
+  padding-left: 15px;
+  padding-top: 20px;
+}
+
+.detail {
+  text-decoration: none;
+  color: rgb(173, 171, 171);
+}
+.buttom p {
+  height: 50%;
+}
+
+/* bagian nilai */
+.categories {
+  width: 100%;
+  height: 100px;
+  background-color: #000000;
+}
+
+.col-3 {
+  flex-basis: 25%;
+  width: 25%;
+  color: whitesmoke;
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 300px;
+  display: inline-block;
+  /* display: flex; */
+}
+
+.col-3 img {
+  width: 10%;
+}
+
+.header-left {
+  line-height: 65px;
+  float: left;
+  text-transform: uppercase;
+}
+
+.header-right {
+  float: right;
+  margin-right: 2px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 15px;
+  color: black;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: #ced6e0;
+  border-bottom: 4px solid black;
+}
+
+.header-container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0;
+}
+
+header {
+  height: 75px;
+  width: 100%;
+  /* background-color: rgba(36, 114, 71, 0.9);  /*mengatur warna serta transaparansi background pada nav*/
+  /* Ubah position ke fixed, dan top ke 0 */
+  background-color: #8d9191;
+  position: fixed;
+  top: 0;
+
+  /* Ubah z-index ke 10 supaya header ditempatkan diatas element tertentu*/
+  z-index: 10;
+}
+
+.logo {
+  width: 78px;
+  padding-top: 0px;
+  position: relative;
+  animation: mymove 5s infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes mymove {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 300px;
+  }
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+
+/* tulis CSS sepatu dibawah */
+.lesson-wrapper-sepatu {
+  background-color: #aaadaf;
+  text-align: center;
+  top: -120px;
+  width: 200px;
+}
+
+.heading-sepatu {
+  padding-top: 90px;
+  padding-bottom: 70px;
+  color: #7e8081;
+}
+
+.lesson-sepatu {
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+
+.lesson-icon-sepatu img {
+  width: 50%;
+  height: 100%;
+  text-align: center;
+}
+
+.text-contents-sepatu {
+  padding: 2px;
+  display: inline-block;
+  font-size: 14px;
+  color: #000000;
+}
+
+/* tulis CSS Team kami dibawah */
+.lesson-wrapper-team {
+  padding-bottom: 100px;
+  /* padding-left: 5%;
+  padding-right: 5%; */
+  background-color: #dfe4ea;
+  text-align: center;
+}
+
+.clear {
+  clear: left;
+}
+
+.heading-team {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+  text-align: center;
+}
+
+/* .heading-wisata h2 {
+    font-weight: normal;
+  } */
+
+.lesson-team {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon-team {
+  /* position: relative; */
+}
+
+.lesson-sepatu {
+  width: 250px;
+  padding: 10px;
+  /* box-shadow: 6px 12px 6px 10px grey; */
+  height: 200px;
+  text-align: center;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+
+:root {
+  --main-color: #d3ad7f;
+  --black: #13131a;
+  --bg: #010103;
+  --border: 0.1rem solid rgba(255, 255, 255, 0.3);
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: 0.2s linear;
+}
+
+html::-webkit-scrollbar {
+  width: 0.8rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #fff;
+  border-radius: 5rem;
+}
+
+.footer {
+  height: 120px;
+  /* padding: 40px; */
+  background: #000000;
+  box-shadow: 8px grey;
+  text-align: center;
+}
+
+.footer .share {
+  padding: 1rem 0;
+}
+
+.footer .share a {
+  height: 5rem;
+  width: 5rem;
+  line-height: 5rem;
+  font-size: 2rem;
+  color: #fff;
+  border: var(--border);
+  margin: 0.3rem;
+  border-radius: 50%;
+}
+
+.footer .share a:hover {
+  background-color: #8b7770;
+}
+
+.footer .credit {
+  font-size: 1rem;
+  color: rgb(138, 130, 130);
+  font-weight: lighter;
+  padding: 1.5rem;
+}
+
+.footer .credit span {
+  color: #fff;
+}
+
+* {
+  box-sizing: border-box;
+}

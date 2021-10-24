@@ -1,0 +1,236 @@
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+  background-color: rgba(219, 209, 209, 0.815);
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 200px 0 200px 0;
+  background-image: url(assets/outfit.jpeg);
+  background-size: cover;
+  /* color: red; */
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 0.9; /* membuat transaparan*/
+  font-size: 75px;
+  letter-spacing: 3px; /* jarak antar huruf*/
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.top-wrapper p {
+  font-size: 30px;
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+
+.btn-wrapper {
+  margin: 20px 0; /*jarak atas dan bawah*/
+}
+
+.btn-wrapper p {
+  margin: 10px 0; /*atas dan bawah*/
+  color: black;
+  font-size: 20px;
+}
+
+.signup {
+  background-color: #883628;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+/*utk tombol mulai belajar*/
+.btn {
+  padding: 12px 24px; /*atas bawah 12px dan kanan kiri 24px*/
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+/*berubah warna tombol ketika kursor diarahkan*/
+.btn:hover {
+  opacity: 1;
+}
+
+/*jarak ke kanan icon fb dan twitter*/
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 50%;
+  width: 100%;
+  background-color: #ced6e0;
+  position: fixed;
+  top: 0;
+
+  /* Ubah z-index ke 10 supaya header ditempatkan diatas element tertentu*/
+  z-index: 8;
+}
+
+.logo {
+  width: 78px;
+  padding-top: 0px;
+}
+
+.header-left {
+  line-height: 65px;
+  float: left;
+  text-transform: uppercase;
+}
+
+.header-right {
+  float: right;
+  /* margin-right: 10px; */
+}
+
+.header-right a {
+  line-height: 50px;
+  /* padding: 0 15px; */
+  color: black;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: #5a5854;
+  border-bottom: 4px solid black;
+}
+
+/* tulis CSS store dibawah */
+.lesson-wrapper-store {
+  position: relative;
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+  /* top: -120px; */
+  border-radius: 40px;
+}
+
+.heading-store {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  /* color: #b7c9d8; */
+}
+
+.lesson-store {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon-store {
+  position: relative;
+}
+
+.lesson-icon-store img {
+  width: 70%;
+}
+
+.lesson-icon-store p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: rgb(253, 253, 253);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.text-contents-store {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #000000;
+}
+
+/* tulis CSS Team kami dibawah */
+.lesson-wrapper-team {
+  /* padding-bottom: 80px; */
+  /* padding-left: 5%; */
+  /* padding-right: 5%; */
+  background-color: #f8efba;
+  text-align: center;
+}
+
+.heading-team {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+/* .heading-team h2 {
+    font-weight: normal;
+  } */
+
+.lesson-team {
+  float: left;
+  width: 20%;
+}
+
+.lesson-icon-team {
+  position: relative;
+}
+
+/* message wrapper */
+.message-wrapper {
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 60px;
+  margin-bottom: 30px;
+  color: #5f5d60;
+}
+.heading h2 {
+  font-weight: normal;
+}
+.heading h3 {
+  font-weight: normal;
+}
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.footer img {
+  width: 100px;
+}
+
+.footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+.footer {
+  padding-top: 30px;
+}
